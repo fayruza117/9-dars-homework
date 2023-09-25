@@ -1,0 +1,22 @@
+$ranglar-map: (
+primary blue yellow,
+secondary gray,
+info aqua,
+danger red,
+warning yellow,
+success green,
+dark black,
+light white,
+indigo indigo,
+orange orange
+);
+
+@each $nomi, $rang in $ranglar-map {
+  .submit-#{$nomi} {
+    color: $rang;
+    background-color: $rang;
+    border-color: $rang ;
+    box-shadow: 0 0 20px $rang;
+    text-shadow: 0 0 40px $rang;
+}
+}

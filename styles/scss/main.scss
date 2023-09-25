@@ -1,0 +1,12 @@
+@import "fedge";
+.btn {
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+}
+.container {
+    width: 1400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
